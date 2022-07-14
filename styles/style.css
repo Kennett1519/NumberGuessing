@@ -20,7 +20,10 @@ body {
     top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    width: 80%;
+    max-width: 60rem;
+    min-width: 19rem;
+    /* width: 20rem; */
     height: 16rem;
 }
 
@@ -101,7 +104,10 @@ button {
     margin-bottom: 6rem;
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    /* width: 20rem; */
+    width: 80%;
+    max-width: 60rem;
+    min-width: 19rem;
     height: 30rem;
 }
 
@@ -136,5 +142,55 @@ button {
 
 .desactivado {
     opacity: 50%;
+}
+
+
+@media (min-width: 800px) {
+
+    .programa {
+        height: 40rem;
+    }
+
+    .bienvenida {
+        height: 20rem;
+    }
+
+    button {
+        margin-top: 2rem;
+        padding: 4px 10px;
+    }
+
+    .btn-ok {
+        margin-top: 5rem;
+    }
+
+    .form-config-app {
+        top: 3rem;
+    }
+
+    .logo-app {
+        top: 2rem;
+    }
+
+    .form-logica-app {
+        top: 4rem;
+    }
+
+    #lbl-intento {
+        margin-top: 2rem;
+    }
+
+    #indicador {
+        margin-top: 5rem;
+    }
+
+    #ingresado {
+        margin-top: 4rem;
+    }
+
+    input {
+        padding: 0.5rem;
+    }
+
 }
 
